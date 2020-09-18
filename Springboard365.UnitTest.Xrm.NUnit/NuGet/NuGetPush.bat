@@ -1,4 +1,4 @@
-SET packageVersion=2.0.0-beta1
+SET packageVersion=2.0.3
 
 NuGet.exe pack ../Springboard365.UnitTest.Xrm.NUnit.csproj -Build -Symbols -Version %packageVersion% -Properties Configuration=Release
 

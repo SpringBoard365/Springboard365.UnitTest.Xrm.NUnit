@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Springboard 365 Ltd</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The unit test framework based on NUnit for Dynamics 365 Customer Engagement from Springboard 365 Ltd.</description>
+    <copyright>Copyright Springboard 365 Ltd 2020</copyright>
+    <tags>Microsoft Dynamics 365 CRM 2011 2013 2015 2016 SDK XRM 365 D365 Power Platform</tags>
+	<dependencies>
+        <group targetFramework=".NETFramework4.6.2" />
+    </dependencies>
+  </metadata>
+</package>

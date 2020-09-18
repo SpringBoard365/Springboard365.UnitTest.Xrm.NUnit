@@ -63,17 +63,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="NuGet\NuGetPush.bat" />
+    <None Include="Springboard365.UnitTest.Xrm.NUnit.nuspec" />
     <None Include="Springboard365Key.snk" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies">
-      <Version>9.0.2.26</Version>
+      <Version>9.0.2.27</Version>
     </PackageReference>
     <PackageReference Include="Moq">
-      <Version>4.14.1</Version>
+      <Version>4.14.5</Version>
     </PackageReference>
     <PackageReference Include="Springboard365.UnitTest.Core">
-      <Version>2.0.0</Version>
+      <Version>2.0.3</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
